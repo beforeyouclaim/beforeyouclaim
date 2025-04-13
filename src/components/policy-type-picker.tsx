@@ -37,15 +37,17 @@ const PolicyTypePicker = () => {
         </SelectTrigger>
 
         <SelectContent>
-          {availablePolicyTypes.map((type) => (
-            <SelectItem
-              key={type}
-              value={type}
-              className="ml-0 text-xs sm:text-sm"
-            >
-              {type}
-            </SelectItem>
-          ))}
+          {[...availablePolicyTypes]
+            .sort((a, b) => a.localeCompare(b))
+            .map((type) => (
+              <SelectItem
+                key={type}
+                value={type}
+                className="ml-0 text-xs sm:text-sm"
+              >
+                {type}
+              </SelectItem>
+            ))}
         </SelectContent>
       </Select>
     </div>
