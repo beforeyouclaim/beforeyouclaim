@@ -9,10 +9,20 @@ export const popularCompaniesMap = {
   Australia: [
     { name: 'AAMI', url: 'https://aami.com.au' },
     { name: 'Allianz', url: 'https://allianz.com.au' },
+    { name: 'NRMA', url: 'https://nrma.com.au' },
+    { name: 'AMP', url: 'https://amp.com.au' },
+    { name: 'Medibank', url: 'https://medibank.com.au' },
+    { name: 'Suncorp', url: 'https://suncorp.com.au' },
+    { name: 'CGU', url: 'https://cgu.com.au' },
+    { name: 'Rollin\'', url: 'rollininsurance.com.au' },
+    { name: 'QBE', url: 'https://qbe.com.au' },
+    { name: 'NIB', url: 'https://nib.com.au' },
   ],
   'New Zealand': [
     { name: 'AA Insurance', url: 'https://www.aainsurance.co.nz' },
     { name: 'State Insurance', url: 'https://state.co.nz' },
+    { name: 'AAMI', url: 'https://aami.com.au' },
+    { name: 'Allianz', url: 'https://allianz.com.au' },
   ],
 };
 
