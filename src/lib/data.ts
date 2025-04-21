@@ -10,6 +10,7 @@ export const popularCompaniesMap = {
     { name: 'AAMI', url: 'https://aami.com.au' },
     { name: 'AMP', url: 'https://amp.com.au' },
     { name: 'Allianz', url: 'https://allianz.com.au' },
+    { name: 'Budget Direct', url: 'https://budgetdirect.com.au' },
     { name: 'Bupa', url: 'https://bupa.com.au' },
     { name: 'CGU', url: 'https://cgu.com.au' },
     { name: 'GIO', url: 'https://gio.com.au' },
